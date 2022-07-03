@@ -6,7 +6,7 @@ import { useActions } from '../hooks/useActions';
 import { useTypedSelector } from '../hooks/useTypedSelector';
 
 const UsersPage: FC = () => {
-  const { users, error, loading } = useTypedSelector((state) => state.user);
+  const { users } = useTypedSelector((state) => state.user);
   const { fetchUsers } = useActions();
 
   useEffect(() => {

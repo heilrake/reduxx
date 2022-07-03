@@ -6,7 +6,7 @@ const HomePage: FC = () => {
   return (
     <div>
       <Header />
-      <h1>Welcome to the club body</h1>
+      <h1>BMW TOP</h1>
       <Outlet />
     </div>
   );
